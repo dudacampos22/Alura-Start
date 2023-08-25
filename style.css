@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #787878;
+    color: aliceblue;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 22px 22px;
+    z-index: 1;
+}
+
+.cabecalho-imagem{
+    width: 5%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    align-content: flex-end; 
+    margin: 0 15px;
+    font-size: 15px;
+    font-family: 'Caprasimo', cursive;
+
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+.escola-imagem{
+    width: 20%;
+}
+
+#escola{
+    background-color: #316ed6;
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items: flex;
+    padding: 20px 0;
+}
+
+.escola-div-conteudo{
+    width: 30%;
+}
+
+.escola-titulo{
+    padding: 28px 0;
+    font-family: 'Caprasimo', cursive;
+}
+
+.emilio-de-menezes{
+    background-color: #316ed6;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    padding: 20px 0;
+}
+
+.emiliotitulo{
+    padding: 28px 0;
+    font-family: 'Caprasimo', cursive;
+}
+
+.emilio-de-menezes-div-conteudo{
+    width: 30%;
+}
+
+.imagem-emilio{
+    width: 20%;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+}
+
+#estudantes{
+    text-align: center;
+}
+
+.estudante-título{
+    padding: 50px 0;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    background-color: #316ed6;
+    color: black;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: 'Caprasimo', cursive;
+    padding: 40px 10px;
+    background-color: #316ed6;
+    color: black;
+}
+
+.rodapé{
+    background-color:#787878;
+    text-align: center;
+    padding: 22px 22px;
+}
+
+.rodapé-imagem{
+    height: 40px;
+}
